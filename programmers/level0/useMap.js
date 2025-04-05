@@ -16,3 +16,12 @@ console.log(map.get('name'));
 map.set('name', 'Alice');
 console.log(map);
 console.log(map.get('name'));
+
+//has 메서드로 해당 키가 있는지를 확인한다. (true/false)
+console.log(map.has('age'));
+//delete 해당 키-값 제거
+map.delete('name');
+console.log(map);
+//clear 모든 요소 제거
+map.clear();
+console.log(map);
