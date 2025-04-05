@@ -10,6 +10,11 @@ const map = new Map(
 );
 
 console.log(map);
+
+// for of 로 map에 저장된 키:값을 출력
+for (const [key, value] of map) {
+  console.log(`${key}:${value}`);
+}
 // get메서드로 키를 이용해 값을 읽어온다.
 console.log(map.get('name'));
 // set메서드로 기존 키의 값을 덮어쓴다.
