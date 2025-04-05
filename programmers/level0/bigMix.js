@@ -17,3 +17,4 @@ console.log(solution(a, b));
 // function solution(a, b) {
 //     return Math.max(Number(`${a}${b}`), Number(`${b}${a}`))
 // }
+// 가장 큰 값을 반환하는 Math.max() 메서드를 사용함
