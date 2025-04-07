@@ -30,3 +30,14 @@ console.log(map);
 //clear 모든 요소 제거
 map.clear();
 console.log(map);
+
+//유사 매핑
+// function solution(ineq, eq, n, m) {
+//   const compare = {
+//       "<=": n <= m,
+//       "<!": n < m,
+//       ">=": n >= m,
+//       ">!": n > m,
+//   };
+//   return +compare[ineq + eq];
+// }
